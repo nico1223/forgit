@@ -1,0 +1,37 @@
+body {
+  font-family: system-ui;
+  background: #f0f0f0;
+  color: #000;
+  text-align: center;
+  margin: 60px;
+}
+
+.grid-products{
+ 	columns: 240px;
+	column-gap:25px;
+}
+
+.wrap-product{
+	-webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+	display: inline-block;
+  width: 100%;
+	max-width:350px;
+	border: 1px solid #e3e3e3;
+  background: #fff;
+	overflow:hidden;
+	margin: 0px 0px 25px;
+}
+
+.wrap-product img{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	min-width: 240px;
+}
+
+.wrap-product-content{
+	padding:0px 25px;
+	font-size:14px;
+}
