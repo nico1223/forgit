@@ -20,9 +20,9 @@
 
 .wrap-product img{
 	width:100%;
+	height: auto;
 	margin:0px;
 	padding:0px;
-	min-width: 240px;
 }
 
 .wrap-product-content{
